@@ -1,0 +1,12 @@
+# 服务端口号
+server:
+  port: 8001
+spring:
+  application:
+    name: wetu-order # 对外暴露的服务名称
+  datasource:
+    url: jdbc:mysql://sh-cdb-3xhm78f4.sql.tencentcdb.com:60936/wetu?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=false&autoReconnect=true
+    #url: jdbc:mysql://172.17.0.5:3306/wetu?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=false&autoReconnect=true
+    username: root
+    password: spring888!
+    driver-class-name: com.mysql.jdbc.Driver
