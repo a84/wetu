@@ -14,7 +14,7 @@ public class TestOrders {
     OrderMapper orderMapper;
 
     @Test
-    void  aaa (){
+    public void   aaa (){
         System.out.println(orderMapper.selectAll());
     }
 }
